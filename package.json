@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "webpack-dev-server": "webpack-dev-server",
-    "dev": "webpack serve",
+    "dev": "webpack serve --host 0.0.0.0",
     "prod": "webpack --mode=production"
   },
   "repository": {
@@ -32,9 +32,11 @@
     "webpack-dev-server": "^3.11.1"
   },
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
     "style-loader": "^2.0.0"
   }

@@ -1,0 +1,1 @@
+docker build -t sensuria:ver1.0 .
