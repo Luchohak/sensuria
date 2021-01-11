@@ -2,10 +2,10 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './Landing.css';
 
-import imgRiquisimo from './../../assets/riq-slider.jpeg';
-import imgFar from './../../assets/far-slider.jpeg';
-import imgMonsters from './../../assets/monsters-slider.jpeg';
-import imgCynical from './../../assets/cynical-slider.jpeg';
+import imgRiquisimo from './../../assets/carousel/riq-slider.jpeg';
+import imgFar from './../../assets/carousel/far-slider.jpeg';
+import imgMonsters from './../../assets/carousel/monsters-slider.jpeg';
+import imgCynical from './../../assets/carousel/cynical-slider.jpeg';
 
 const landing = () => {
     return (

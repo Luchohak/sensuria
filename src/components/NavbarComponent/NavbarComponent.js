@@ -3,6 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 
 const navbarComponent = () => {
     return (
+        <header>
         <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
             <Navbar.Brand href="/">Sensuria</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -15,6 +16,7 @@ const navbarComponent = () => {
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
+        </header>
     )
 }
 

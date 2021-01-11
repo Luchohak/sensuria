@@ -1,0 +1,25 @@
+.music-banner{
+    height: 20vh;
+}
+
+.music-banner-img{
+    height: 30%;
+}
+
+.music-banner-container{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.music-banner-text{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.card-song{
+    width: 80%;
+    margin: 35px 10px;
+}
