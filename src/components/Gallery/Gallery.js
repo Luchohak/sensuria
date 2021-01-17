@@ -8,16 +8,17 @@ const gallery = () => {
     return (
         <Container>
             <Row>
-                <Col sm={6} md={4} lg={3}>
+                <Col xs={6} lg={8}>
                     <Image src={imageExample} thumbnail />
                 </Col>
-                <Col sm={6} md={4} lg={3}>
+                <Col xs={6} lg={4}>
+                    <Image src={imageExample} thumbnail />
                     <Image src={imageExample} thumbnail />
                 </Col>
-                <Col sm={6} md={4} lg={3}>
+                <Col xs={6} lg={4}>
                     <Image src={imageExample} thumbnail />
                 </Col>
-                <Col sm={6} md={4} lg={3}>
+                <Col xs={6} lg={4}>
                     <Image src={imageExample} thumbnail />
                 </Col>
             </Row>

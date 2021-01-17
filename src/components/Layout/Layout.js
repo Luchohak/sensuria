@@ -10,6 +10,8 @@ import Gallery from '../Gallery/Gallery';
 import About from '../About/About';
 import NavbarComponent from '../NavbarComponent/NavbarComponent';
 
+import './Layout.css';
+
 const layout = (props) => (
     <Aux>
         <Container
