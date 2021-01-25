@@ -29,7 +29,7 @@ const music = () => {
                                 href="https://open.spotify.com/track/2ycdnfqQlths50dEitGCZ7?si=jUiZUMn0RuWT-hHlfzRHpA"
                                 target="_blank"
                                 className="btn btn-outline-success"
-                                disabled
+                                onClick={() => console.log('click')}
                             >
                                 Listen on Spotify
                             </a>
