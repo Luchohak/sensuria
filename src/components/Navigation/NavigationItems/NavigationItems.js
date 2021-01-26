@@ -6,8 +6,8 @@ const NAV_ARR = [
     { name: 'Home', route: '/' },
     { name: 'Music', route: '/music' },
     { name: 'Us', route: '/us' },
-    { name: 'Become a Fan', route: '/fans' },
-    { name: 'Dev', route: '/developer' }
+    { name: 'Pics', route: '/gallery' },
+    { name: 'Dev', route: '/' }
 ]
 
 const NavigationItems = () => (

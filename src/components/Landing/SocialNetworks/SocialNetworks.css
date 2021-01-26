@@ -1,0 +1,31 @@
+.social-networks-container {
+    height: 15vh;
+    box-shadow: 0px 0px 3px 5px rgba(213, 113, 183, 0.7);
+    z-index: 10;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.image-outline{
+    height: 50%;
+    transition: 0.4s;
+    border-radius: 42px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.image-outline:hover{
+    background-color: rgba(53, 30, 73, 0.7);
+}
+
+.social-networks-container img{
+    height: 100%; 
+    filter: invert(96%) sepia(2%) saturate(1003%) hue-rotate(315deg) brightness(93%) contrast(92%);
+    transition: 0.4s;
+}
+
+.social-networks-container img:hover{
+    filter: invert(51%) sepia(17%) saturate(1484%) hue-rotate(265deg) brightness(106%) contrast(81%);
+}

@@ -6,9 +6,9 @@
 }
 
 .navi-item a{
-    color: #8F5C2C;
     text-decoration: none;
     width: 100%;
+    color: #662980;
     box-sizing: border-box;
     display: block;
 }
@@ -16,7 +16,8 @@
 .navi-item a:hover,
 .navi-item a:active,
 .navi-item a.active {
-    color: #40A4C8;
+    color: #F8EAD2;
+    text-decoration: none;
 }
 
 @media (min-width: 500px){
@@ -29,18 +30,18 @@
     }
 
     .navi-item a{
-        color: white;
         height: 100%;
         padding: 16px 10px;
         border-bottom: 4px solid transparent;
+        transition: 0.4s;
     }
     
     .navi-item a:hover,
     .navi-item a:active,
     .navi-item a.active {
-        background-color: #8F5C2C;
-        border-bottom: 4px solid #40A4C8;
-        color: white;
+        background-color: rgba(53, 30, 73, 0.6);
+        transition: 0.4s;
+        border-bottom: 4px solid #662980;
     }
 
 }

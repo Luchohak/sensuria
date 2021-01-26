@@ -1,4 +1,29 @@
-.crsl-img{
-    height: 100%;
-    object-fit: cover;
+.cover-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-container img{
+    opacity: 0.6;
+}
+
+.cover-container button {
+    width: 42vw;
+    height: 12vw;
+    position: absolute;
+    background-color: #351E49;
+    color: #E3D7D6;
+    border: none;
+    transition: 0.5s;
+    opacity: 0.8;
+    border-radius: 99px;
+    font-size: 5vw;
+}
+
+.cover-container button:hover {
+    background-color: #662980;
+    color: #F8EAD2;
+    transition: 0.5s;
 }

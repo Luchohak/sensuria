@@ -15,7 +15,7 @@ const SideDrawer = (props) => {
 
     return (
         <Aux>
-            <Backdrop show={props.open} clos={props.closed} />
+            <Backdrop show={props.open} close={props.closed} />
             <div className={attachedClasses.join(' ')}>
                 <Logo height="11%" className="side-sens-logo" />
                 <nav>

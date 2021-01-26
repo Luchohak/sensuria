@@ -41,7 +41,7 @@ const Layout = (props) => {
                     <Route exact path="/" component={Landing} />
                     <Route path="/music" component={Music} />
                     <Route path="/gallery" component={Gallery} />
-                    <Route path="/about" component={About} />
+                    <Route path="/us" component={About} />
                 </Switch>
             </Router>
         </Aux>
