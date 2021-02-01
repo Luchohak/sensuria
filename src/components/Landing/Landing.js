@@ -8,6 +8,7 @@ import imgFar from './../../assets/carousel/far-slider.jpeg';
 import imgMonsters from './../../assets/carousel/monsters-slider.jpeg';
 import imgCynical from './../../assets/carousel/cynical-slider.jpeg';
 import SocialNetworks from './SocialNetworks/SocialNetworks';
+import VerticalBanners from '../verticalBanners/verticalBanners';
 
 
 const landing = () => {
@@ -21,9 +22,7 @@ const landing = () => {
                 <Button>BECOME A FAN</Button>
             </div>
             <SocialNetworks />
-            <div className="cover-container">
-                <Image src={imgMonsters} fluid />
-            </div>
+            <VerticalBanners />
         </Aux>
     );
 }

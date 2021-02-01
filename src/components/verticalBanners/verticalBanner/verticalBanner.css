@@ -1,0 +1,37 @@
+.vertical-banner {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.vertical-banner:hover{
+    opacity: 1;
+    box-shadow: inset -3px 3px #351E49;
+}
+
+.vertical-banner img{
+    max-width: 26vw;
+}
+
+.vertical-banner button{
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    border: none;
+    transition: 0.3s;
+    opacity: 0.7;
+    border-radius: 9px;
+    font-size: 3.5vw;
+}
+
+.vertical-banner button:hover{
+    width: 80%;
+    height: 40%;
+    opacity: 0.9;
+    font-size: 3.7vw;
+}
+
+@media (max-width: 767px){
+    .vertical-banner{
+        max-width: 52vw;
+    }
+}
