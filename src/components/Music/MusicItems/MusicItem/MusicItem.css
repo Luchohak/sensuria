@@ -1,0 +1,32 @@
+.music-item {
+    font-size: 1.5em;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+.music-item:hover {
+    box-shadow: 6px 6px rgba(213, 113, 183, 0.7);
+}
+
+.listen-buttons{
+    justify-content: space-evenly;
+}
+
+.listen-buttons div{
+    border-radius: 99px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.listen-buttons div:hover{
+    background-color: #351E49!important;
+}
+
+.music-item img {
+    width: 100%;
+}
+
+.listen-buttons img {
+    width: 100%;
+    filter: invert(96%) sepia(2%) saturate(1003%) hue-rotate(315deg) brightness(93%) contrast(92%);
+}

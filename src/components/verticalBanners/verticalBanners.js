@@ -10,16 +10,20 @@ import farImg from '../../assets/vertical-banners/far-vertical-1930x3431.jpeg'
 
 const VerticalBanners = () => {
     const bannersInfo = [
-       {imgURL: monstersImg, btnId: 'bg2 classic', btnLabel: 'MUSIC'},
-       {imgURL: riqImg, btnId: 'bg1', btnLabel: 'PICS'},
-       {imgURL: cynicalImg, btnId: 'bg1', btnLabel: 'US'},
-       {imgURL: farImg, btnId: 'bg2 classic', btnLabel: 'CONNECT'}  
+       {imgURL: monstersImg, btnId: 'bg2 classic', btnLabel: 'MUSIC', sectionURL: '/music'},
+       {imgURL: riqImg, btnId: 'bg1 secondary', btnLabel: 'PICS', sectionURL: '/gallery'},
+       {imgURL: cynicalImg, btnId: 'bg1 secondary', btnLabel: 'US', sectionURL: '/us'},
+       {imgURL: farImg, btnId: 'bg2 classic', btnLabel: 'CONNECT', sectionURL: '/'}  
     ]
     return(
         <Row>
             {bannersInfo.map(banner => {
                 return (
-                    <VerticalBanner imgURL={banner.imgURL} btnClass={banner.btnId} btnText={banner.btnLabel}/>
+                    <VerticalBanner 
+                        imgURL={banner.imgURL} 
+                        btnClass={banner.btnId} 
+                        btnText={banner.btnLabel}
+                        url={banner.sectionURL}/>
                 )
             })}
         </Row>    

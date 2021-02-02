@@ -7,9 +7,9 @@ const VerticalBanner = (props) => {
     return (
         <Col xs={6} md={3} lg={3} className="d-flex justify-content-center align-items-center vertical-banner">
             <img src={props.imgURL}/>
-            <button className={props.btnClass}>
+            <a className={props.btnClass} href={props.url}>
                 {props.btnText}
-            </button>
+            </a>
         </Col>
     )
 }
