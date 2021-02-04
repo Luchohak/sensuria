@@ -1,11 +1,15 @@
 .sens-logo {
-    background-color: white;
     padding: 8px;
     height: 80%;
     box-sizing: border-box;
     border-radius: 5px;
+    transition: 0.5s;
 }
 
-.sens-logo img {
-    height: 100%;
+.sens-logo:hover{
+    background-color: #D571B7!important;
+}
+
+.sens-logo a:hover{
+    text-decoration: none;
 }

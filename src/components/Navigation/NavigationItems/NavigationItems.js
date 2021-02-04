@@ -5,9 +5,9 @@ import './NavigationItems.css';
 const NAV_ARR = [
     { name: 'Home', route: '/' },
     { name: 'Music', route: '/music' },
-    { name: 'Us', route: '/us' },
-    { name: 'Pics', route: '/gallery' },
-    { name: 'Dev', route: '/' }
+    // { name: 'Us', route: '/us' },
+    // { name: 'Pics', route: '/gallery' },
+    { name: 'Dev', route: '/dev' }
 ]
 
 const NavigationItems = () => (

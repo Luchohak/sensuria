@@ -5,12 +5,13 @@ import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
 import Aux from '../../hoc/Aux';
 
 import { Container } from 'react-bootstrap';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 import Landing from '../Landing/Landing';
 import Music from '../Music/Music';
 import Gallery from '../Gallery/Gallery';
 import About from '../About/About';
+import Developer from '../Developer/Developer';
 
 import './Layout.css';
 
@@ -36,14 +37,11 @@ const Layout = (props) => {
                 open={showSideDrawer}
                 closed={() => sideDrawerCloseHandler()}
             />
-            <Router>
-                <Switch>
-                    <Route exact path="/" component={Landing} />
-                    <Route path="/music" component={Music} />
-                    <Route path="/gallery" component={Gallery} />
-                    <Route path="/us" component={About} />
-                </Switch>
-            </Router>
+            <Route exact path="/" component={Landing} />
+            <Route path="/music" component={Music} />
+            <Route path="/gallery" component={Gallery} />
+            <Route path="/us" component={About} />
+            <Route path="/dev" component={Developer} />
         </Aux>
     );
 }

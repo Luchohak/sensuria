@@ -1,0 +1,67 @@
+.personal-info{
+    background-color: #F8EAD2;
+    border-radius: 14px;
+    font-family: 'Lexend Mega';
+}
+
+.greetings-container div {
+    line-height: 2rem;
+}
+
+
+.personal-info .buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons-container .row {
+    background-color: #351E49;
+    border-radius: 14px;
+    height: 60px;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.buttons-container .round{
+    border-radius: 99px;
+}
+
+.buttons-container .row:hover {
+    background-color: #662980;
+    box-shadow: 1px 1px #662980;
+    height: 75px;
+}
+
+.buttons-container img {
+    height: 100%;
+    transition: 0.4s;
+    filter: invert(96%) sepia(2%) saturate(1003%) hue-rotate(315deg) brightness(93%) contrast(92%);
+}
+
+.personal-info .picture-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.picture-container img {
+    height: auto;
+    width: 100%;
+}
+
+.picture-container a {
+    border-radius: 32px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.picture-container a:hover {
+    background-color: #662980!important;
+    color: #F8EAD2;
+    font-size: 0.9rem;
+    text-decoration: none;
+}

@@ -11,8 +11,8 @@ import farImg from '../../assets/vertical-banners/far-vertical-1930x3431.jpeg'
 const VerticalBanners = () => {
     const bannersInfo = [
        {imgURL: monstersImg, btnId: 'bg2 classic', btnLabel: 'MUSIC', sectionURL: '/music'},
-       {imgURL: riqImg, btnId: 'bg1 secondary', btnLabel: 'PICS', sectionURL: '/gallery'},
-       {imgURL: cynicalImg, btnId: 'bg1 secondary', btnLabel: 'US', sectionURL: '/us'},
+       {imgURL: riqImg, btnId: 'bg1 secondary', btnLabel: 'PICS', sectionURL: '/'},
+       {imgURL: cynicalImg, btnId: 'bg1 secondary', btnLabel: 'US', sectionURL: '/'},
        {imgURL: farImg, btnId: 'bg2 classic', btnLabel: 'CONNECT', sectionURL: '/'}  
     ]
     return(
