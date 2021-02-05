@@ -33,8 +33,8 @@ const PersonalInfo = () => {
                     <Row> <a href={instaURL} target="_blank"> <img src={instaIcon} /> </a> </Row>
                 </Col>
                 <Col md={4} className="picture-container">
-                    <Row><img src={profilePic} /></Row>
-                    <Row><Link className="bg1 secondary px-2 py-2" to={resume} target="_blank" download="resume-lacosta.pdf">download resume</Link></Row>
+                    <Row className="my-2"><img src={profilePic} /></Row>
+                    <Row className="my-2"><Link className="bg1 secondary px-2 py-2" to={resume} target="_blank" download="resume-lacosta.pdf">download resume</Link></Row>
                 </Col>
             </Row>
         </section>
