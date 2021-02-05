@@ -38,10 +38,10 @@ const Layout = (props) => {
                 closed={() => sideDrawerCloseHandler()}
             />
             <Route exact path="/" component={Landing} />
-            <Route path="/music" component={Music} />
-            <Route path="/gallery" component={Gallery} />
-            <Route path="/us" component={About} />
-            <Route path="/dev" component={Developer} />
+            <Route exact path="/music" component={Music} />
+            <Route exact path="/gallery" component={Gallery} />
+            <Route exact path="/us" component={About} />
+            <Route exact path="/dev" component={Developer} />
         </Aux>
     );
 }

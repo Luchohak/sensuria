@@ -16,7 +16,7 @@ const PersonalInfo = () => {
     const instaURL = 'https://www.instagram.com/lucho4costa';
 
     return (
-        <section className="personal-info dark my-4 mx-4">
+        <section className="personal-info dark my-4 mx-4 py-4">
             <Row className="mx-4 px-3">
                 <Col md={7} className="greetings-container px-4 py-4">
                     <Row><h1>Luis Acosta</h1></Row>
