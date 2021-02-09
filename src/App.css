@@ -1,6 +1,8 @@
-.global-font{
+#global-container{
+    min-height: 100vh;
     font-family: 'Unica One', 'Courier New', Courier, monospace!important;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+
 }
 
 .bg-drk {

@@ -1,9 +1,10 @@
 .developer-section{
     padding: 0;
     margin: 56px auto;
-    max-width: 1280px;
+    max-width: 1028px;
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .developer-section section{

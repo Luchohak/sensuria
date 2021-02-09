@@ -12,12 +12,12 @@ class App extends React.Component {
     render() {
         return (
             <BrowserRouter>
-                <div className="bg2 global-font">
+                <div id="global-container" className="bg2">
                     <Layout />
-                    <footer className="footer">
+                </div>
+                <footer className="footer">
                         coded with&nbsp;<i class="far fa-heart"></i>&nbsp;by Luchohak&nbsp;<i class="far fa-hand-spock"></i>.
                 </footer>
-                </div>
             </BrowserRouter>
         );
     }
