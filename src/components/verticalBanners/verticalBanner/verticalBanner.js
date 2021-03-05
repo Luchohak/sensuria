@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Button } from 'react-bootstrap';
 
-import './VerticalBanner.css';
+import './verticalBanner.css';
 
 const VerticalBanner = (props) => {
     return (
