@@ -25,7 +25,8 @@
 
 .music-item img {
     width: 100%;
-    height: 100%;
+    height: auto;
+    max-height: 500px;
 }
 
 .music-item iframe {

@@ -7,7 +7,7 @@ const NAV_ARR = [
     { name: 'Music', route: '/music' },
     // { name: 'Us', route: '/us' },
     // { name: 'Pics', route: '/gallery' },
-    { name: 'Dev', route: '/dev' }
+    // { name: 'Dev', route: '/dev' }
 ]
 
 const NavigationItems = () => (

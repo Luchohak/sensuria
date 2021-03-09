@@ -15,22 +15,22 @@ const MusicItems = () => {
 const spotRiq = 'https://open.spotify.com/track/2ycdnfqQlths50dEitGCZ7?si=U3wY6t3GTM2DuPwLbYaEgQ';
 const spotFar = 'https://open.spotify.com/track/66emZup8KqjJZTWPITFrFO?si=EEl66q0XRO-bI8E3c5hHQA';
 const spotMonsters = 'https://open.spotify.com/track/4IcrvUaok7uyzkOCF19JFm?si=yxNNWxlvQLK0drlWg94gVA';
-const spotCynical = '';
+const spotCynical = 'https://open.spotify.com/track/4XFmDeTf8jalQxlqFRGWx9?si=_I5Lx63gSuWeXMvHqELyQw';
 //Embeded Links
 const riqEmbeded = 'https://open.spotify.com/embed/track/2ycdnfqQlths50dEitGCZ7'
 const farEmbeded = 'https://open.spotify.com/embed/track/66emZup8KqjJZTWPITFrFO';
 const monstersEmbeded = 'https://open.spotify.com/embed/track/4IcrvUaok7uyzkOCF19JFm';
-const cynicalEmbeded = '';
+const cynicalEmbeded = 'https://open.spotify.com/embed/track/4XFmDeTf8jalQxlqFRGWx9';
 //Itunes Links
 const iRiq = 'https://music.apple.com/mx/album/riqu%C3%ADsimo/1547015670?i=1547015671';
 const iFar = 'https://music.apple.com/mx/album/far/1547587437?i=1547587438';
 const iMonsters = 'https://music.apple.com/mx/album/monsters/1547595145?i=1547595148';
-const iCynical = '';
+const iCynical = 'https://music.apple.com/mx/album/cynical/1551055595?i=1551055868';
 //Amazon Music Links 
 const amzRiq = 'https://music.amazon.com.mx/albums/B08RSLFKVB?trackAsin=B08RSLV2JX';
 const amzFar = 'https://music.amazon.com.mx/albums/B08S6PTDP4?trackAsin=B08S6KHKPD';
 const amzMonsters = 'https://music.amazon.com.mx/albums/B08S74P8KQ?trackAsin=B08S77YTCW';
-const amzCynical = '';
+const amzCynical = 'https://music.amazon.com.mx/albums/B08V9345Y5';
 
     const musicItemsInfo = [
         {
@@ -67,7 +67,7 @@ const amzCynical = '';
             spotify: spotCynical,
             appMusic: iCynical,
             amzMusic: amzCynical,
-            released: false,
+            released: true,
         }
     ]
     return (

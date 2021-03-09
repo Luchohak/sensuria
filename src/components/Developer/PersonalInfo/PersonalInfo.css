@@ -13,7 +13,6 @@
     font-size: 0.9rem;
 }
 
-
 .personal-info .buttons-container {
     display: flex;
     flex-direction: column;
@@ -55,8 +54,8 @@
 }
 
 .picture-container img {
-    height: auto;
     width: 100%;
+    height: auto;
 }
 
 .picture-container a {

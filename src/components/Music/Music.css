@@ -3,7 +3,8 @@
 }
 
 .music-banner-img{
-    height: 30%;
+    width: 100%;
+    height: auto;
 }
 
 .music-banner-container{
@@ -17,9 +18,4 @@
     top: 55%;
     left: 25%;
     transform: translate(-50%, -50%);
-}
-
-.card-song{
-    width: 80%;
-    margin: 35px 10px;
 }
